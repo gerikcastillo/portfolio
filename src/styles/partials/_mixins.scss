@@ -1,0 +1,196 @@
+@use "./variables" as *;
+@use "./colors" as *;
+
+@mixin tablet {
+  @media screen and (min-width: $tablet-breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: $desktop-breakpoint) {
+    @content;
+  }
+}
+
+@mixin list-type {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+//component spacing
+@mixin componentSpacing {
+  padding: 0 1rem;
+
+  @include tablet {
+    padding: 0 2.5rem;
+  }
+  @include desktop {
+    padding: 0 7.5rem;
+    margin: 0 auto;
+    max-width: 100rem;
+  }
+}
+
+// mobile text styles
+
+@mixin mHeader {
+  color: $primary-text-color;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+}
+
+@mixin mSubheader {
+  color: $primary-text-color;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+@mixin mLabels {
+  color: $primary-text-color;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+@mixin mButtons {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  cursor: pointer;
+}
+
+@mixin mBodyLarge {
+  color: $primary-text-color;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
+
+@mixin mBodyMedium {
+  color: $primary-text-color;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+@mixin mBodySmall {
+  color: $primary-text-color;
+  font-size: 0.6875rem;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+// tablet & desktop text styles
+
+@mixin Header {
+  color: $primary-text-color;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+@mixin Subheader {
+  color: $primary-text-color;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2rem;
+}
+
+@mixin Labels {
+  color: $primary-text-color;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+}
+
+@mixin Buttons {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.375rem;
+  cursor: pointer;
+  color: $third-color;
+  background-color: $primary-cta-color;
+  border: 0.125rem solid $primary-cta-color;
+  padding: 0 1rem;
+  border-radius: 0.25rem;
+  transition-duration: 0.4s;
+
+  &:hover {
+    background-color: $hover-cta-color;
+    color: $divider-color;
+    border: 0.125rem solid $primary-cta-color;
+  }
+  &:active {
+    box-shadow: 0 0.3125rem #666;
+    transform: translateY(0.25rem);
+  }
+}
+
+@mixin BodyLarge {
+  color: $primary-text-color;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+}
+
+@mixin BodyMedium {
+  color: $primary-text-color;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+}
+
+@mixin BodySmall {
+  color: $primary-text-color;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.125rem;
+}
+
+//extra
+
+@mixin PageTitle {
+  @include mHeader;
+  display: flex;
+  padding-bottom: 1rem;
+  border-bottom: 0.125rem solid $primary-cta-color;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0;
+
+  @include tablet {
+    @include Header;
+  }
+}
+
+//overlay
+@mixin Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+@mixin InputStyling {
+  border: 0.125rem solid $primary-cta-color;
+  background-color: $alt-background-color;
+    &:active {
+      border: 0.125rem solid $logo-color;
+      box-shadow: 0 0 0.25rem $logo-color;
+    }
+    &:focus {
+      outline: none;
+      border: 0.125rem solid $logo-color;
+      box-shadow: 0 0 0.25rem $logo-color;
+    }
+    &::placeholder {
+      color: $primary-text-color;
+    }
+}
