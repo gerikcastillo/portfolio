@@ -1,0 +1,16 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+
+.header {
+    background-color: lightgray;
+    
+  &__container {
+    @include componentSpacing;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  &__title {
+    @include Header;
+  }
+}
