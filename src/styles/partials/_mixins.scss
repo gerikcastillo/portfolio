@@ -111,7 +111,6 @@
   font-weight: 600;
   line-height: 1.375rem;
   cursor: pointer;
-  color: $third-color;
   background-color: $primary-cta-color;
   border: 0.125rem solid $primary-cta-color;
   padding: 0 1rem;
@@ -120,7 +119,6 @@
 
   &:hover {
     background-color: $hover-cta-color;
-    color: $divider-color;
     border: 0.125rem solid $primary-cta-color;
   }
   &:active {

@@ -2,15 +2,20 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
-    background-color: lightgray;
-    
+    background-color: $alt-background-color;
+
   &__container {
     @include componentSpacing;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    height: 5rem;
   }
   &__title {
     @include Header;
+  }
+  &__nav-wrapper {
+    width: 35%;
   }
 }
