@@ -2,7 +2,7 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
-    background-color: $alt-background-color;
+    background-color: $primary-text-color;
 
   &__container {
     @include componentSpacing;
@@ -11,6 +11,10 @@
     align-items: center;
     justify-content: space-between;
     height: 5rem;
+  }
+  &__logo {
+    width: 10rem;
+    margin: 0;
   }
   &__title {
     @include Header;

@@ -1,0 +1,28 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+
+.hero {
+  background-color: $primary-text-color;
+  
+  &__container {
+    padding: 3rem 0;
+    
+  }
+  &__title-wrapper {
+    @include componentSpacing;
+  }
+  &__title {
+    @include Header;
+    margin: 0;
+    padding: 1rem 0;
+    color: white;
+
+  }
+  &__subtitle-wrapper {
+    @include componentSpacing;
+  }
+  &__subtitle {
+    @include BodyLarge;
+    color: white;
+  }
+}
