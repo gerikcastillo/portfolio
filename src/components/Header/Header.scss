@@ -5,12 +5,19 @@
   background-color: $alt-background-color;
 
   &__container {
-    @include componentSpacing;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
-    height: 5rem;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4rem;
+    @include tablet {
+      justify-content: flex-end;
+    }
+    @include desktop {
+      @include componentSpacing;
+      justify-content: flex-end;
+    }
   }
   &__logo {
     height: 5rem;
@@ -20,6 +27,12 @@
     @include Header;
   }
   &__nav-wrapper {
-    width: 40%;
+    width: 100%;
+    @include tablet {
+      width: 60%;
+    }
+    @include desktop {
+      width: 40%;
+    }
   }
 }

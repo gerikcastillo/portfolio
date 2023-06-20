@@ -5,53 +5,84 @@
   background-image: url("../../assets/images/background.jpg");
   background-position: center;
   background-size: cover;
-  height: 640px;
-
+  @include desktop {
+    height: 640px;
+  }
   &__container {
-    @include componentSpacing;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10rem;
-    height: 100%;
+    margin: 0 1rem;
+    padding: 2rem 0;
+    @include tablet {
+      margin: 0 6rem;
+      padding: 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    @include desktop {
+      @include componentSpacing;
+      height: 100%;
+    }
   }
   &__text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 5rem 0;
-    margin: 5rem 0;
+
+    @include desktop {
+
+      padding: 5rem 0;
+      margin: 5rem 0;
+    }
   }
   &__title-1 {
     @include mHeader;
-    margin: 0;
-    padding: 1rem 0;
-    font-weight: 600;
-  }
-  &__title-2 {
-    @include Header;
-    margin: 0;
-    padding: 2rem 0;
     color: $secondary-cta-color;
     font-weight: 600;
+    margin: 0;
+
+    @include desktop {
+      @include Header;
+      color: $secondary-cta-color;
+      font-size: 60px;
+      margin: 0;
+      padding: 1rem 0;
+    }
+  }
+  &__title-2 {
+    @include mHeader;
+    color: $secondary-cta-color;
+    font-weight: 600;
+    margin: 2rem 0;
+    @include desktop {
+      @include Header;
+      color: $secondary-cta-color;
+      margin: 0;
+      padding: 4rem 0;
+    }
   }
   &__title-3 {
     @include mSubheader;
     font-weight: 600;
     margin: 0;
-    padding: 1rem 0;
     color: $primary-cta-color;
+    @include desktop {
+      // @include Subheader;
+      font-weight: 600;
+      margin: 0;
+      padding: 1rem 0;
+      color: $primary-cta-color;
+    }
   }
-  
-  &__links-wrapper {
-    display: flex;
-    align-items: center;
-    margin: 2rem 0;
-    gap: 2rem;
-  }
-  &__logo {
-    height: 3rem;
-  }
+
+  //   &__links-wrapper {
+  //     display: flex;
+  //     align-items: center;
+  //     margin: 2rem 0;
+  //     gap: 2rem;
+  //   }
+  //   &__logo {
+  //     height: 3rem;
+  //   }
   &__image-container {
     display: flex;
     align-items: flex-end;
@@ -60,7 +91,14 @@
     width: 100%;
     object-fit: cover;
     background-size: contain;
-    height: 600px;
     border-radius: 0.625rem;
+
+    @include tablet {
+    padding-top: 2rem;
+      height: 320px;
+    }
+    @include desktop {
+      height: 600px;
+    }
   }
 }
