@@ -3,26 +3,54 @@
 
 .hero {
   background-color: $primary-text-color;
-  
-  &__container {
-    padding: 3rem 0;
-    
-  }
-  &__title-wrapper {
+&__container {
     @include componentSpacing;
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+  &__text-container {
+    padding: 3rem 0;
   }
-  &__title {
+  &__title-1 {
+    @include mSubheader;
+    margin: 0;
+    padding: 1rem 0;
+    color: white;
+    font-weight: 400;
+  }
+  &__title-2 {
     @include Header;
     margin: 0;
     padding: 1rem 0;
     color: white;
-
   }
-  &__subtitle-wrapper {
-    @include componentSpacing;
+  &__title-3 {
+    @include mSubheader;
+    margin: 0;
+    padding: 1rem 0;
+    color: $primary-cta-color;
+    font-weight: 400;
   }
   &__subtitle {
     @include BodyLarge;
     color: white;
+  }
+  &__links-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  &__logo {
+    height: 4rem;
+  }
+  &__image-container {
+    width: 50%;
+  }
+  &__image{
+    width: 100%;
+    object-fit: contain;
+    background-size: contain;
+    height: 500px;
   }
 }
