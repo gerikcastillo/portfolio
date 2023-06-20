@@ -9,7 +9,7 @@ function NavBar() {
           <button className="navbar__button">EXPERIENCE</button>
           <button className="navbar__button">PROJECTS</button>
           <button className="navbar__button">CONTACT</button>
-          <button className="navbar__button navbar__button--border">Resume</button>
+          {/* <button className="navbar__button navbar__button--border">RESUME</button> */}
         </div>
       </nav>
     </>

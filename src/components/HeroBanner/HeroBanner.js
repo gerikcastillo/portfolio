@@ -10,14 +10,11 @@ function HeroBanner() {
         <div className="hero__container">
         <div className="hero__text-container">
           <div className="hero__title-wrapper">
-            <p className="hero__title-1">HI THERE 👋</p>
-            <p className="hero__title-2">I'M GERIK</p>
-            <p className="hero__title-3">DEVELOPER + DESIGNER</p>
-            <p className="hero__subtitle">
-              with a keen eye for design and bringing products to life.
-            </p>
+            <p className="hero__title-1">Hello, my name is</p>
+            <p className="hero__title-2">GERIK</p>
+            <p className="hero__title-3">FULL-STACK DEVELOPER + DESIGNER</p>
           </div>
-          <div className="hero__links-wrapper">
+          {/* <div className="hero__links-wrapper">
             <a href="#" target="_blank">
               <img
                 className="hero__logo"
@@ -32,7 +29,7 @@ function HeroBanner() {
                 alt="github"
               ></img>
             </a>
-          </div>
+          </div> */}
         </div>
         <div className="hero__image-container">
             <img className="hero__image" src={GerikImage}alt="gerik"></img>

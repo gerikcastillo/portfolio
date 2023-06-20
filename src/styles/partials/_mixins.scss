@@ -43,7 +43,7 @@
 
 @mixin mSubheader {
   color: $primary-text-color;
-  font-size: 1.25rem;
+  font-size: 18px;
   font-weight: 600;
   line-height: 1.75rem;
 }
@@ -87,7 +87,7 @@
 
 @mixin Header {
   color: $primary-text-color;
-  font-size: 3.75rem;
+  font-size: 80px;
   font-weight: 600;
   line-height: 2.5rem;
 }
@@ -118,7 +118,7 @@
   transition-duration: 0.4s;
 
   &:hover {
-    background-color: $hover-cta-color;
+    background-color: $secondary-cta-color;
     border: 0.125rem solid $primary-cta-color;
   }
   &:active {
