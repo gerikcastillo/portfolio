@@ -1,7 +1,7 @@
 import "./HeroBanner.scss";
 import GithubLogo from "../../assets/images/githublogo.png";
 import LinkedInLogo from "../../assets/images/linkedinlogo.png";
-import GerikImage from "../../assets/images/gerikimage.png";
+import GerikImage from "../../assets/images/gerikimage2.png";
 
 function HeroBanner() {
   return (
@@ -9,9 +9,9 @@ function HeroBanner() {
       <section className="hero">
         <div className="hero__container">
           <div className="hero__text-container">
-            <p className="hero__title-1">HELLO,</p>
-            <p className="hero__title-2">I'M GERIK</p>
-            <p className="hero__title-3">FULL-STACK DEVELOPER + DESIGNER</p>
+            <p className="hero__title-1">Hey there,</p>
+            <p className="hero__title-2">I'm Gerik</p>
+            <p className="hero__title-3">Full-Stack Web Developer & Designer</p>
           </div>
           <div className="hero__image-container">
             <img className="hero__image" src={GerikImage} alt="gerik"></img>

@@ -6,7 +6,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: Inter, Spectral, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
 }
@@ -32,4 +32,9 @@ a {
 a:link,
 a:visited {
   text-decoration: none;
+}
+
+span {
+  font-weight: 600;
+  color: $secondary-cta-color;
 }

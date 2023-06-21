@@ -6,7 +6,7 @@
   background-position: center;
   background-size: cover;
   @include desktop {
-    height: 640px;
+    height: 600px;
   }
   &__container {
     margin: 0 1rem;
@@ -16,7 +16,7 @@
       padding: 0;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
     }
     @include desktop {
       @include componentSpacing;
@@ -35,12 +35,14 @@
   }
   &__title-1 {
     @include mHeader;
+    font-family: Spectral;
     color: $secondary-cta-color;
     font-weight: 600;
     margin: 0;
 
     @include desktop {
       @include Header;
+      font-family: Spectral;
       color: $secondary-cta-color;
       font-size: 60px;
       margin: 0;
@@ -49,6 +51,7 @@
   }
   &__title-2 {
     @include mHeader;
+    font-family: Spectral;
     color: $secondary-cta-color;
     font-weight: 600;
     margin: 2rem 0;
@@ -57,31 +60,24 @@
       color: $secondary-cta-color;
       margin: 0;
       padding: 4rem 0;
+      font-size: 100px;
+      
     }
   }
   &__title-3 {
     @include mSubheader;
+    font-family: Spectral;
     font-weight: 600;
     margin: 0;
     color: $primary-cta-color;
     @include desktop {
-      // @include Subheader;
+      @include Subheader;
       font-weight: 600;
       margin: 0;
       padding: 1rem 0;
       color: $primary-cta-color;
     }
   }
-
-  //   &__links-wrapper {
-  //     display: flex;
-  //     align-items: center;
-  //     margin: 2rem 0;
-  //     gap: 2rem;
-  //   }
-  //   &__logo {
-  //     height: 3rem;
-  //   }
   &__image-container {
     display: flex;
     align-items: flex-end;
