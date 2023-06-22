@@ -33,25 +33,9 @@
       margin: 4.5rem 0;
     }
   }
-  &__title-1 {
+  
+  &__title {
     @include mHeader;
-    font-family: Spectral;
-    color: $secondary-cta-color;
-    font-weight: 600;
-    margin: 0;
-
-    @include desktop {
-      @include Header;
-      font-family: Spectral;
-      color: $secondary-cta-color;
-      font-size: 60px;
-      margin: 0;
-      padding: 1rem 0;
-    }
-  }
-  &__title-2 {
-    @include mHeader;
-    font-family: Spectral;
     color: $secondary-cta-color;
     font-weight: 600;
     margin: 2rem 0;
@@ -59,14 +43,12 @@
       @include Header;
       color: $secondary-cta-color;
       margin: 0;
-      padding: 4rem 0;
-      font-size: 100px;
-      
+      padding: 2rem 0;
+      font-size: 80px;
     }
   }
-  &__title-3 {
+  &__subtitle{
     @include mSubheader;
-    font-family: Spectral;
     font-weight: 600;
     margin: 0;
     color: $primary-cta-color;
@@ -74,6 +56,7 @@
       @include Subheader;
       font-weight: 600;
       margin: 0;
+      text-align: center;
       padding-bottom: 4rem;
       color: $primary-cta-color;
     }

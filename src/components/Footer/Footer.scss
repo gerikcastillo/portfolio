@@ -1,0 +1,38 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+
+.footer {
+  background-color: $fourth-background-color;
+  &__container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    @include desktop {
+      @include componentSpacing;
+    }
+  }
+  &__link {
+    width: 30%;
+  }
+  &__logo {
+    height: 5rem;
+    padding: 1rem 0;
+  }
+  &__wrapper {
+    width: 30%;
+  }
+  &__icon {
+    height: 36px;
+    padding: 0 1rem;
+  }
+  &__copyright {
+    @include mBodySmall;
+    color: $primary-text-color;
+    @include desktop {
+      @include BodySmall;
+      color: $primary-text-color;
+    }
+  }
+}

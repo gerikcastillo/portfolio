@@ -7,9 +7,8 @@ function HeroBanner() {
       <section className="hero">
         <div className="hero__container">
           <div className="hero__text-container">
-            <p className="hero__title-1">Hey there,</p>
-            <p className="hero__title-2">I'm Gerik</p>
-            <p className="hero__title-3">Full-Stack Web Developer & Designer</p>
+            <p className="hero__title">Gerik Castillo</p>
+            <p className="hero__subtitle">full-stack web developer & designer</p>
           </div>
           <div className="hero__image-container">
             <img className="hero__image" src={GerikImage} alt="gerik"></img>

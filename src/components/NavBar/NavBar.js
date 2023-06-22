@@ -5,10 +5,10 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="navbar__container">
-          <button className="navbar__button">ABOUT</button>
-          <button className="navbar__button">EXPERIENCE</button>
-          <button className="navbar__button">PROJECTS</button>
-          <button className="navbar__button navbar__button--border">CONTACT</button>
+          <a href="#about" className="navbar__button">ABOUT</a>
+          <a href="#skills" className="navbar__button">SKILLS</a>
+          <a href="#projects" className="navbar__button">PROJECTS</a>
+          <a href="#contact" className="navbar__button navbar__button--border">CONTACT</a>
         </div>
       </nav>
     </>

@@ -20,9 +20,9 @@ import Jest from "../../assets/icons/jest.svg";
 function Skills() {
   return (
     <>
-      <section className="skills">
+      <section className="skills" id="skills">
         <div className="skills__container">
-          <p className="skills__title">Skills</p>
+          <p className="skills__title">My Skillsets</p>
           <div className="skills__wrapper">
             <div className="skills__block">
               <img

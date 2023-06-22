@@ -10,12 +10,10 @@
     justify-content: space-between;
     padding: 1rem;
     height: 4rem;
-    @include tablet {
-      justify-content: flex-end;
-    }
+
     @include desktop {
       @include componentSpacing;
-      justify-content: flex-end;
+   
     }
   }
   &__logo {
