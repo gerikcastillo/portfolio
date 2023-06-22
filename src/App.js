@@ -2,7 +2,8 @@ import './App.scss';
 import Header from "./components/Header/Header";
 import HeroBanner from "./components/HeroBanner/HeroBanner"
 import About from "./components/About/About"
-// import Footer from "./components/Footer/Footer"
+import Skills from './components/Skills/Skills';
+import Footer from "./components/Footer/Footer"
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
      <Header />
      <HeroBanner />
      <About />
-     {/* <Footer /> */}
+     <Skills />
+     <Footer />
     </div>
   );
 }

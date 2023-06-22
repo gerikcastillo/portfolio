@@ -1,0 +1,36 @@
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/mixins" as *;
+
+.skills {
+  background-color: $alt-background-color;
+  &__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    height: 4rem;
+    @include tablet {
+      justify-content: flex-end;
+    }
+    @include desktop {
+      @include componentSpacing;
+      justify-content: flex-end;
+    }
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  &__title {
+    @include mSubheader;
+    border-bottom: 2px solid $hover-cta-color;
+    width: 100%;
+
+    @include desktop {
+      @include Subheader;
+      padding: 1rem 0;
+    }
+  }
+}

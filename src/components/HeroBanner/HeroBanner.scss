@@ -29,8 +29,8 @@
     justify-content: center;
 
     @include desktop {
-      padding: 5rem 0;
-      margin: 5rem 0;
+      padding: 4.5rem 0;
+      margin: 4.5rem 0;
     }
   }
   &__title-1 {
@@ -74,7 +74,7 @@
       @include Subheader;
       font-weight: 600;
       margin: 0;
-      padding: 1rem 0;
+      padding-bottom: 4rem;
       color: $primary-cta-color;
     }
   }

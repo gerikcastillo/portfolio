@@ -1,6 +1,4 @@
 import "./HeroBanner.scss";
-import GithubLogo from "../../assets/images/githublogo.png";
-import LinkedInLogo from "../../assets/images/linkedinlogo.png";
 import GerikImage from "../../assets/images/gerikimage2.png";
 
 function HeroBanner() {
