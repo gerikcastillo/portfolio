@@ -2,7 +2,7 @@
 @use "../../styles/partials/mixins" as *;
 
 .header {
-  background-color: $alt-background-color;
+  background-color: $background-color;
   &__container {
     display: flex;
     flex-direction: row;

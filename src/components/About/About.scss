@@ -2,6 +2,7 @@
 @use "../../styles/partials/mixins" as *;
 
 .about {
+  background-color: $background-color;
   &__container {
     width: 100%;
     display: flex;
@@ -12,7 +13,7 @@
   }
   &__title {
     @include mSubheader;
-    border-bottom: 0.125rem solid $hover-cta-color;
+    border-bottom: 0.125rem solid $primary-cta-color;
     width: 100%;
 
     @include desktop {

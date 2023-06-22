@@ -15,8 +15,7 @@
   &__title {
     @include mSubheader;
     display: flex;
-    justify-content: flex-end;
-    border-bottom: 0.125rem solid $hover-cta-color;
+    border-bottom: 0.125rem solid $primary-cta-color;
     width: 100%;
 
     @include desktop {
