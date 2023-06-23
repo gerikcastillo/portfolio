@@ -3,6 +3,7 @@
 
 .about {
   background-color: $background-color;
+
   &__container {
     width: 100%;
     display: flex;
@@ -36,11 +37,25 @@
     width: 100%;
     margin-bottom: 36px;
   }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   &__bio {
     @include mBodyLarge;
     width: 50%;
     @include desktop {
       @include BodyLarge;
+      text-align: center;
+    }
+  }
+  &__links {
+    font-weight: 600;
+    color: $primary-cta-color;
+    &:hover {
+      text-decoration: underline;
     }
   }
 }

@@ -13,13 +13,31 @@ function Footer() {
             <img className="footer__logo" src={Logo} alt="my logo" />
           </a>
           <div className="footer__wrapper">
-            <img className="footer__icon" src={MailIcon} alt="mail icon" />
-            <img className="footer__icon" src={GithubLogo} alt="github logo" />
-            <img
-              className="footer__icon"
-              src={LinkedInLogo}
-              alt="linkedin logo"
-            />
+            <a href="mailto:geriklc@gmail.com">
+              <img className="footer__icon" src={MailIcon} alt="mail icon" />
+            </a>
+            <a
+              href="https://github.com/gerikcastillo"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="footer__icon"
+                src={GithubLogo}
+                alt="github logo"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/gerikcastillo/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="footer__icon"
+                src={LinkedInLogo}
+                alt="linkedin logo"
+              />
+            </a>
           </div>
 
           <p className="footer__copyright">© Gerik Castillo's Website 2023</p>
