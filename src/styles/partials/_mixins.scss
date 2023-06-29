@@ -135,7 +135,7 @@
   transition-duration: 0.4s;
 
   &:hover {
-    background-color: $hover-cta-color;
+    background-color: $primary-cta-color;
   }
   &:active {
     transform: translateY(0.25rem);
