@@ -27,23 +27,27 @@ function Projects() {
                 </p>
                 <p className="projects__description">
                   {" "}
-                  Exposhare is a full-stack CRUD web application C2C marketplace
-                  for photography enthusiasts to buy/sell/trade in a
-                  user-curated platform. It is a one-stop-shop where users can
-                  shop while also joining a community through discussion forums.{" "}
-                  Uses mock data to simulate live user listings.
+                  Exposhare is a C2C marketplace for photography enthusiasts to
+                  buy/sell/trade in a user-curated platform. It is a one-stop
+                  shop where users can shop while also joining a community
+                  through discussion forums. Uses mock data to simulate live
+                  user listings.
                 </p>
                 <div className="projects__details-wrapper">
-                <p className="projects__stack">
-                  React · JavaScript · HTML/CSS · Node.js · Express.js · MySQL
-                </p>
-                <div className="projects__btn-wrapper">
-                  <a href="" target="_blank" className="projects__link">
-                    Live Site
-                  </a>
-                  <a href="" target="_blank" className="projects__link">
-                    Github
-                  </a>
+                  <p className="projects__stack">
+                    React · JavaScript · HTML/CSS · Node.js · Express.js · MySQL
+                  </p>
+                  <div className="projects__btn-wrapper">
+                    <a
+                      href="https://youtu.be/eCZ-s1Ex5fo"
+                      target="_blank"
+                      className="projects__link"
+                    >
+                      Demo
+                    </a>
+                    <a href="https://github.com/gerikcastillo/exposhare-client" target="_blank" className="projects__link">
+                      Github
+                    </a>
                   </div>
                 </div>
               </div>
@@ -58,25 +62,28 @@ function Projects() {
               </figure>
 
               <div className="projects__details">
-                <h3 className="projects__name">American Express Chat Window</h3>
+                <h3 className="projects__name">American Express AI Chat Window</h3>
                 <p className="projects__subtitle">
                   Co-Developer, Industry Project
                 </p>
                 <p className="projects__description">
                   This project was conceived during a 24 hour Hackathon hosted
-                  by Brainstation x American Express. Worked cross-functionally
+                  by Brainstation x American Express. 
+                 
+                  Worked cross-functionally
                   with other cohorts such as data science and UX Design to come
                   up with our AI Chat Window solution to mimic an improved
-                  customer experience.
+                  customer experience. 
                 </p>
+                <span className="projects__description projects__description--weight">Our team came in 1st place.</span>
                 <div className="projects__details-wrapper">
-                <p className="projects__stack">
-                  React · JavaScript · HTML/CSS · Figma
-                </p>
-                <div className="projects__btn-wrapper">
-                  <a href="" target="_blank" className="projects__link">
-                    Github
-                  </a>
+                  <p className="projects__stack">
+                    React · JavaScript · HTML/CSS · Figma
+                  </p>
+                  <div className="projects__btn-wrapper">
+                    <a href="https://github.com/alexzaloga7/Industry-Project" target="_blank" className="projects__link">
+                      Github
+                    </a>
                   </div>
                 </div>
               </div>
@@ -97,16 +104,15 @@ function Projects() {
                 <p className="projects__description">
                   Doc Doc Goose is a web application that serves as a search
                   engine to locate doctors within certain search parameters
-                  (location, name, specialty).
-
-                  The idea was conceived during a 12 hour hackathon hosted by BrainStation.
+                  (location, name, specialty). The idea was conceived during a
+                  12 hour hackathon hosted by BrainStation.
                 </p>
                 <div className="projects__details-wrapper">
                   <p className="projects__stack">
                     React · JavaScript · HTML/CSS · Node.js · Express.js
                   </p>
                   <div className="projects__btn-wrapper">
-                    <a href="" target="_blank" className="projects__link">
+                    <a href="https://github.com/gerikcastillo/doctor-search" target="_blank" className="projects__link">
                       Github
                     </a>
                   </div>
