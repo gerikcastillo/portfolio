@@ -16,7 +16,7 @@ function About() {
               <p className="about__bio">
                 I am a <span>Full-Stack Web Developer</span> based out of{" "}
                 <span>Brooklyn, NY</span>. As a former Account Executive in the
-                fintech industry and recent graduate of BrainStation's bootcamp,
+                fintech industry and recent graduate of BrainStation's Software Engineering Bootcamp,
                 I am excited to leverage my extensive sales experience along
                 with my newfound technical skills to create innovative solutions
                 and make an impact in the tech industry.

@@ -27,11 +27,12 @@ function Projects() {
                 </p>
                 <p className="projects__description">
                   {" "}
-                  Exposhare is a C2C marketplace for photography enthusiasts to
-                  buy/sell/trade in a user-curated platform. It is a one-stop
-                  shop where users can shop while also joining a community
-                  through discussion forums. Uses mock data to simulate live
-                  user listings.
+                  Exposhare is a consumer-to-consumer marketplace designed for
+                  photography enthusiasts, offering a platform for buying,
+                  selling, and trading in a user-curated environment. This
+                  all-in-one platform allows users not only to browse listings,
+                  but also to become part of a community through engaging
+                  discussion forums.
                 </p>
                 <div className="projects__details-wrapper">
                   <p className="projects__stack">
@@ -46,7 +47,12 @@ function Projects() {
                     >
                       Demo
                     </a>
-                    <a href="https://github.com/gerikcastillo/exposhare-client" target="_blank" rel="noreferrer"className="projects__link">
+                    <a
+                      href="https://github.com/gerikcastillo/exposhare-client"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="projects__link"
+                    >
                       Github
                     </a>
                   </div>
@@ -68,19 +74,24 @@ function Projects() {
                   Co-Developer, Industry Project
                 </p>
                 <p className="projects__description">
-                  This project was conceived during a 24 hour Hackathon hosted
-                  by Brainstation x American Express. 
-                 
-                  Worked cross-functionally with Data Science and UX Design members, to produce our AI Chat Window solution to mimic an improved
-                  customer experience. 
+                  This project was brought to life during a 24-hour Hackathon
+                  hosted by Brainstation in collaboration with American Express.
+                  We functioned as a cross-disciplinary team, working closely
+                  with Data Science and UX Design colleagues to develop an AI
+                  Chat Window solution aimed at enhancing customer experience.
                 </p>
-                
+
                 <div className="projects__details-wrapper">
                   <p className="projects__stack">
-                    React · JavaScript · HTML/CSS ·  Node.js · Express.js · Figma
+                    React · JavaScript · HTML/CSS · Node.js · Express.js · Figma
                   </p>
                   <div className="projects__btn-wrapper">
-                    <a href="https://github.com/alexzaloga7/Industry-Project" target="_blank" rel="noreferrer" className="projects__link">
+                    <a
+                      href="https://github.com/alexzaloga7/Industry-Project"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="projects__link"
+                    >
                       Github
                     </a>
                   </div>
@@ -101,17 +112,24 @@ function Projects() {
                   Co-Developer, Hackathon Project
                 </p>
                 <p className="projects__description">
-                  Doc Doc Goose is a web application that serves as a search
-                  engine to locate doctors within certain search parameters
-                  (location, name, specialty). The idea was conceived during a
-                  12 hour hackathon hosted by BrainStation.
+                  Doc Doc Goose is a web application designed as a search engine
+                  to locate doctors within specific search parameters such as
+                  location, name, and specialty. This concept was developed
+                  during an 8-hour hackathon hosted by BrainStation through
+                  paired-programming teams.
                 </p>
+
                 <div className="projects__details-wrapper">
                   <p className="projects__stack">
                     React · JavaScript · HTML/CSS · Node.js · Express.js
                   </p>
                   <div className="projects__btn-wrapper">
-                    <a href="https://github.com/gerikcastillo/doctor-search" target="_blank" rel="noreferrer" className="projects__link">
+                    <a
+                      href="https://github.com/gerikcastillo/doctor-search"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="projects__link"
+                    >
                       Github
                     </a>
                   </div>
