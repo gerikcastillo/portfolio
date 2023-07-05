@@ -16,7 +16,6 @@
     "sass": "^1.63.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage" : "https://gerikcastillo.github.io/portfolio-v1",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

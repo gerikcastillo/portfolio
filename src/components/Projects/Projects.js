@@ -41,11 +41,12 @@ function Projects() {
                     <a
                       href="https://youtu.be/eCZ-s1Ex5fo"
                       target="_blank"
+                      rel="noreferrer"
                       className="projects__link"
                     >
                       Demo
                     </a>
-                    <a href="https://github.com/gerikcastillo/exposhare-client" target="_blank" className="projects__link">
+                    <a href="https://github.com/gerikcastillo/exposhare-client" target="_blank" rel="noreferrer"className="projects__link">
                       Github
                     </a>
                   </div>
@@ -81,7 +82,7 @@ function Projects() {
                     React · JavaScript · HTML/CSS · Figma
                   </p>
                   <div className="projects__btn-wrapper">
-                    <a href="https://github.com/alexzaloga7/Industry-Project" target="_blank" className="projects__link">
+                    <a href="https://github.com/alexzaloga7/Industry-Project" target="_blank" rel="noreferrer" className="projects__link">
                       Github
                     </a>
                   </div>
@@ -112,7 +113,7 @@ function Projects() {
                     React · JavaScript · HTML/CSS · Node.js · Express.js
                   </p>
                   <div className="projects__btn-wrapper">
-                    <a href="https://github.com/gerikcastillo/doctor-search" target="_blank" className="projects__link">
+                    <a href="https://github.com/gerikcastillo/doctor-search" target="_blank" rel="noreferrer" className="projects__link">
                       Github
                     </a>
                   </div>
