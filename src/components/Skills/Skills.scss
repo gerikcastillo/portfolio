@@ -40,10 +40,10 @@
     height: 3.125rem;
     padding: 0 2rem;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.4s;
 
     &:hover {
-      transform: translateY(-3px);
+      transform: translateY(-6px);
     }
   }
   &__label {

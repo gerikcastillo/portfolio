@@ -9,9 +9,12 @@ function Footer() {
     <>
       <footer className="footer" id="contact">
         <div className="footer__container">
+          <div className="footer__wrapper">
           <a href="#top" className="footer__link">
             <img className="footer__logo" src={Logo} alt="my logo" />
           </a>
+          </div>
+          
           <div className="footer__wrapper">
             <a href="mailto:geriklc@gmail.com">
               <img className="footer__icon" src={MailIcon} alt="mail icon" />
