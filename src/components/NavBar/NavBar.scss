@@ -27,8 +27,15 @@
     padding-top: 1px;
     &--border {
       @include mButtons;
-      color: white;
+        color: $background-color;
+        background-color: $primary-cta-color;
+
+        &:hover {
+          color: $primary-cta-color;
+          background-color: $background-color;
+        }
     }
+
     @include desktop {
       @include BodyLarge;
       font-weight: 600;
@@ -38,7 +45,13 @@
       color: $primary-cta-color;
       &--border {
         @include Buttons;
-        color: white;
+        color: $background-color;
+        background-color: $primary-cta-color;
+
+        &:hover {
+          color: $primary-cta-color;
+          background-color: $background-color;
+        }
       }
     }
   }

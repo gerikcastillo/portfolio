@@ -8,6 +8,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 0 1rem;
+    
+    @include tablet {
+      padding: 0 2rem;
+    }
+
     @include desktop {
       @include componentSpacing;
     }
@@ -17,6 +23,7 @@
     display: flex;
     border-bottom: 0.125rem solid $primary-cta-color;
     width: 100%;
+    margin-top: 2rem;
 
     @include desktop {
       @include Subheader;

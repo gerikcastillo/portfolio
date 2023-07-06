@@ -8,6 +8,10 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 0 1rem;
+    @include tablet {
+      padding: 0 2rem;
+    }
     @include desktop {
       @include componentSpacing;
     }
@@ -17,11 +21,12 @@
     @include mSubheader;
     border-bottom: 0.125rem solid $primary-cta-color;
     width: 100%;
+    margin-top: 2rem;
 
     @include desktop {
       @include Subheader;
       padding: 1rem 0;
-      margin-top: 36px;
+      margin-top: 2.25rem;
       margin-bottom: 0;
     }
   }
@@ -30,21 +35,36 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 4rem;
+    @include tablet {
+      justify-content: center;
+      gap: 2rem;
+    }
+    @include desktop {
+      justify-content: space-between;
+      gap: 0;
+    }
   }
   &__block {
     display: flex;
     flex-direction: column;
-    margin: 2rem 1rem 1rem;
+    margin: 0 1rem;
     padding: 1rem 0;
     width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid $alt-background-color;
+    @include tablet {
+      width: 18.75rem;
+      border-bottom: none;
+    }
 
     @include desktop {
+      margin: 2rem 1rem 1rem;
       width: 30%;
       border: 2px solid $alt-background-color;
       padding: 1rem;
       box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-     justify-content: space-between;
+      justify-content: space-between;
+      margin-bottom: 4rem;
     }
   }
   &__figure {
@@ -88,6 +108,7 @@
     margin-bottom: auto;
     &--weight {
       font-weight: 600;
+      padding: 6px 0;
     }
   }
   &__btn-wrapper {
@@ -105,22 +126,24 @@
   }
   &__stack {
     @include BodySmall;
+    color: $alt-text-color;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   &__link {
     @include Buttons;
-    color: $primary-cta-color;
-    background-color: transparent;
-    border: none;
+    color: $background-color;
+    background-color: $primary-cta-color;
     text-align: center;
     align-self: center;
     width: 30%;
-    font-size: 14px;
+    font-size: 0.875rem;
+    transition: 0.4s;
 
     &:hover {
-      color: white;
+      color: $primary-cta-color;
+    background-color: $background-color;
     }
   }
 }

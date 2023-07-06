@@ -5,12 +5,19 @@
   background-image: url("../../assets/images/background.jpg");
   background-position: center;
   background-size: cover;
+  height: 488px;
+
+  @include tablet {
+    height: 320px;
+  }
   @include desktop {
-    height: 600px;
+    height: 480px;
   }
   &__container {
     margin: 0 1rem;
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
     @include tablet {
       margin: 0 6rem;
       padding: 0;
@@ -27,9 +34,17 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    @include tablet {
+     align-items: flex-start;
+     padding-left: 2rem;
+     padding-bottom: 1rem;
+     width: 50%;
+    }
 
     @include desktop {
       padding: 4.5rem 0;
+      padding-left: 3.5rem;
       margin: 4.5rem 0;
     }
   }
@@ -44,7 +59,7 @@
       color: $secondary-cta-color;
       margin: 0;
       padding: 2rem 0;
-      font-size: 80px;
+      font-size: 67px;
     }
   }
   &__subtitle{
@@ -52,6 +67,11 @@
     font-weight: 600;
     margin: 0;
     color: $primary-cta-color;
+    text-align: center;
+    @include tablet {
+      text-align: start;
+      padding-bottom: 2rem;
+    }
     @include desktop {
       @include Subheader;
       font-weight: 600;
@@ -71,13 +91,13 @@
     object-fit: cover;
     background-size: contain;
     border-radius: 0.625rem;
-
+    height: 300px;
     @include tablet {
       padding-top: 2rem;
       height: 320px;
     }
     @include desktop {
-      height: 600px;
+      height: 500px;
     }
   }
 }

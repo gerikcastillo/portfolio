@@ -63,7 +63,7 @@ function Projects() {
               </figure>
 
               <div className="projects__details">
-                <h3 className="projects__name">American Express AI Chat Window</h3>
+                <h3 className="projects__name">AMEX AI Chat Window</h3>
                 <p className="projects__subtitle">
                   Co-Developer, Industry Project
                 </p>
@@ -71,15 +71,13 @@ function Projects() {
                   This project was conceived during a 24 hour Hackathon hosted
                   by Brainstation x American Express. 
                  
-                  Worked cross-functionally
-                  with other cohorts such as data science and UX Design to come
-                  up with our AI Chat Window solution to mimic an improved
+                  Worked cross-functionally with Data Science and UX Design members, to produce our AI Chat Window solution to mimic an improved
                   customer experience. 
                 </p>
-                <span className="projects__description projects__description--weight">Our team came in 1st place.</span>
+                
                 <div className="projects__details-wrapper">
                   <p className="projects__stack">
-                    React · JavaScript · HTML/CSS · Figma
+                    React · JavaScript · HTML/CSS ·  Node.js · Express.js · Figma
                   </p>
                   <div className="projects__btn-wrapper">
                     <a href="https://github.com/alexzaloga7/Industry-Project" target="_blank" rel="noreferrer" className="projects__link">

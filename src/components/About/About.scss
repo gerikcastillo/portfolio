@@ -8,6 +8,10 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    padding: 0 1rem;
+    @include tablet {
+      padding: 0 2rem;
+    }
     @include desktop {
       @include componentSpacing;
     }
@@ -16,6 +20,7 @@
     @include mSubheader;
     border-bottom: 0.125rem solid $primary-cta-color;
     width: 100%;
+    margin-top: 2rem;
 
     @include desktop {
       @include Subheader;
@@ -45,8 +50,9 @@
   }
   &__bio {
     @include mBodyLarge;
-    width: 50%;
+    width: 100%;
     @include desktop {
+      width: 50%;
       @include BodyLarge;
       text-align: center;
     }
