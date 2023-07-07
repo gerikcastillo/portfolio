@@ -10,9 +10,9 @@ function HeroBanner() {
             <p className="hero__title">Hey, I'm Gerik</p>
             <p className="hero__subtitle">full-stack web developer & designer</p>
           </div>
-          <div className="hero__image-container">
+          {/* <div className="hero__image-container"> */}
             <img className="hero__image" src={GerikImage} alt="gerik"></img>
-          </div>
+          {/* </div> */}
         </div>
       </section>
     </>
