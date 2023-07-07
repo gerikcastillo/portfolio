@@ -11,7 +11,7 @@ function About() {
             <p className="about__title">About Me</p>
             <div className="about__block">
               <h2 className="about__bio">
-                My name is <span>Gerik Castillo</span> /Geh-ruhk cAss-tea-yo/{" "}
+                My name is <span>Gerik Castillo</span> /Geh-rick cAss-tea-yo/{" "}
               </h2>
               <p className="about__bio">
                 I am a <span>Full-Stack Web Developer</span> based out of{" "}
